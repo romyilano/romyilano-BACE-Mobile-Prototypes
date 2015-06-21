@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8121.17" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YSLJobDetailViewController">
+            <connections>
+                <outlet property="backgroundImageView" destination="08a-hX-kdT" id="LbS-nf-nCe"/>
+                <outlet property="jobDescriptionLabel" destination="Zl2-Mi-Sqt" id="kl5-J5-Aes"/>
+                <outlet property="jobHeaderOne" destination="2Ht-H8-Rds" id="Ev6-qz-44q"/>
+                <outlet property="takeJobButton" destination="Bpm-AC-5nQ" id="9hd-YG-naA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="kombucha-dark.png" translatesAutoresizingMaskIntoConstraints="NO" id="08a-hX-kdT">
+                    <rect key="frame" x="0.0" y="65" width="414" height="671"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="credit hours: expiration" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ht-H8-Rds">
+                    <rect key="frame" x="8" y="78" width="398" height="56"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bpm-AC-5nQ">
+                    <rect key="frame" x="9" y="646" width="397" height="70"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                    <state key="normal" title="Take Job"/>
+                    <connections>
+                        <action selector="btnPressed:" destination="-1" eventType="touchUpInside" id="rH8-UD-yZZ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="job description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zl2-Mi-Sqt">
+                    <rect key="frame" x="9" y="152" width="385" height="140"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Bpm-AC-5nQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="9" id="RRp-0T-4hT"/>
+                <constraint firstItem="Bpm-AC-5nQ" firstAttribute="top" secondItem="08a-hX-kdT" secondAttribute="bottom" constant="-90" id="Wzp-Gp-hWM"/>
+                <constraint firstAttribute="trailing" secondItem="Bpm-AC-5nQ" secondAttribute="trailing" constant="8" id="qyq-nv-u8U"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <point key="canvasLocation" x="381" y="-149"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="kombucha-dark.png" width="320" height="568"/>
+    </resources>
+</document>

@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		208CC4FBD34927D1F7A08317 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 159058CC448D6D88A798A796 /* libPods.a */; };
+		EC03D0B41B3482EB0079EFB2 /* YSLContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC03D0B11B3482EB0079EFB2 /* YSLContainerViewController.m */; };
+		EC03D0B51B3482EB0079EFB2 /* YSLScrollMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC03D0B31B3482EB0079EFB2 /* YSLScrollMenuView.m */; };
+		EC03D0BA1B348EBB0079EFB2 /* YSLChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC03D0B91B348EBB0079EFB2 /* YSLChildViewController.m */; };
+		EC0FFAC21B2FC97200CBCA99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0FFAC11B2FC97200CBCA99 /* main.m */; };
+		EC0FFAC51B2FC97200CBCA99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0FFAC41B2FC97200CBCA99 /* AppDelegate.m */; };
+		EC0FFACB1B2FC97200CBCA99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0FFAC91B2FC97200CBCA99 /* Main.storyboard */; };
+		EC0FFACD1B2FC97200CBCA99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0FFACC1B2FC97200CBCA99 /* Assets.xcassets */; };
+		EC0FFAD01B2FC97200CBCA99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0FFACE1B2FC97200CBCA99 /* LaunchScreen.storyboard */; };
+		EC0FFADB1B2FC97200CBCA99 /* BACE_TimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0FFADA1B2FC97200CBCA99 /* BACE_TimeTests.m */; };
+		EC0FFAE61B2FC97200CBCA99 /* BACE_TimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0FFAE51B2FC97200CBCA99 /* BACE_TimeUITests.m */; };
+		EC0FFAF61B2FCAEB00CBCA99 /* cooking.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0FFAF31B2FCAEB00CBCA99 /* cooking.png */; };
+		EC0FFAF71B2FCAEB00CBCA99 /* cooking@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0FFAF41B2FCAEB00CBCA99 /* cooking@2x.png */; };
+		EC0FFAF81B2FCAEB00CBCA99 /* pattern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC0FFAF51B2FCAEB00CBCA99 /* pattern.jpg */; };
+		EC0FFAFB1B2FCAF600CBCA99 /* timebanklogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC0FFAFA1B2FCAF600CBCA99 /* timebanklogo.jpg */; };
+		EC0FFAFE1B2FCB0200CBCA99 /* baceIcon3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0FFAFC1B2FCB0200CBCA99 /* baceIcon3x.png */; };
+		EC0FFAFF1B2FCB0200CBCA99 /* baceIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0FFAFD1B2FCB0200CBCA99 /* baceIcon2x.png */; };
+		EC0FFB011B2FCB0800CBCA99 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0FFB001B2FCB0800CBCA99 /* logo.png */; };
+		EC0FFB061B2FCB1D00CBCA99 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0FFB031B2FCB1D00CBCA99 /* Constants.m */; };
+		EC0FFB071B2FCB1D00CBCA99 /* BACEUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0FFB051B2FCB1D00CBCA99 /* BACEUtility.m */; };
+		EC32A6691B350F9E00681A1D /* YSLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32A6671B350F9E00681A1D /* YSLDetailViewController.m */; };
+		EC32A66A1B350F9E00681A1D /* YSLDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC32A6681B350F9E00681A1D /* YSLDetailViewController.xib */; };
+		EC37FF8B1B311B8200B2C682 /* BaceJob.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37FF8A1B311B8200B2C682 /* BaceJob.m */; };
+		EC37FF8F1B311C7900B2C682 /* Neighborhood.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37FF8E1B311C7900B2C682 /* Neighborhood.m */; };
+		EC37FF951B311FE600B2C682 /* Skill.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37FF941B311FE600B2C682 /* Skill.m */; };
+		EC37FF981B31296800B2C682 /* BACEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37FF971B31296800B2C682 /* BACEManager.m */; };
+		EC3FF6341B32738400E7035E /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3FF6331B32738400E7035E /* icon1.png */; };
+		EC3FF6361B32739100E7035E /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3FF6351B32739100E7035E /* icon3.png */; };
+		EC3FF63C1B328FD800E7035E /* machine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3FF63B1B328FD800E7035E /* machine@2x.png */; };
+		EC3FF63E1B3344C400E7035E /* kombucha-dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3FF63D1B3344C400E7035E /* kombucha-dark@2x.png */; };
+		EC4DD7021B3215C200916EBF /* BACEParseClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4DD7011B3215C200916EBF /* BACEParseClient.m */; };
+		EC5BBEB91B34FEC000A7C243 /* YSLJobCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5BBEB71B34FEC000A7C243 /* YSLJobCell.m */; };
+		EC5BBEBA1B34FEC000A7C243 /* YSLJobCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5BBEB81B34FEC000A7C243 /* YSLJobCell.xib */; };
+		EC70E1AD1B36487300641066 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC70E1AC1B36487300641066 /* ProfileViewController.m */; };
+		EC962A3E1B351E2D0005C120 /* YSLPeopleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC962A3C1B351E2D0005C120 /* YSLPeopleTableViewCell.m */; };
+		EC962A3F1B351E2D0005C120 /* YSLPeopleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC962A3D1B351E2D0005C120 /* YSLPeopleTableViewCell.xib */; };
+		EC962A441B3535910005C120 /* YSLJobDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC962A421B3535910005C120 /* YSLJobDetailViewController.m */; };
+		EC962A451B3535910005C120 /* YSLJobDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC962A431B3535910005C120 /* YSLJobDetailViewController.xib */; };
+		ECC1D7D01B335654003934E6 /* DesignStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC1D7CF1B335654003934E6 /* DesignStoryboard.storyboard */; };
+		ECC1D7D51B335ADE003934E6 /* YSLFrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC1D7D41B335ADE003934E6 /* YSLFrontViewController.m */; };
+		ECC1D7D81B335BD8003934E6 /* YSLAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC1D7D71B335BD8003934E6 /* YSLAboutViewController.m */; };
+		ECC1D7DB1B335BEA003934E6 /* YSLPeopleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC1D7DA1B335BEA003934E6 /* YSLPeopleTableViewController.m */; };
+		ECC1D7DE1B335DEE003934E6 /* YSLJobsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC1D7DD1B335DEE003934E6 /* YSLJobsTableViewController.m */; };
+		ECC1D7E11B3366AE003934E6 /* mayaProfile@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC1D7E01B3366AE003934E6 /* mayaProfile@3x.png */; };
+		ECC1D7E31B3366B8003934E6 /* cityIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC1D7E21B3366B8003934E6 /* cityIcon@3x.png */; };
+		ECC1D7E51B3366C2003934E6 /* cityIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC1D7E41B3366C2003934E6 /* cityIcon@2x.png */; };
+		ECC1D7E81B336823003934E6 /* BACEUser.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC1D7E71B336823003934E6 /* BACEUser.m */; };
+		ECC1D7EB1B337DE3003934E6 /* YSLMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC1D7EA1B337DE3003934E6 /* YSLMainMenuViewController.m */; };
+		ECC1D7EF1B33846D003934E6 /* YSLSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC1D7EE1B33846D003934E6 /* YSLSettingsViewController.m */; };
+		ECD36B211B30F447005A58DF /* Miscjson.json in Resources */ = {isa = PBXBuildFile; fileRef = ECD36B201B30F447005A58DF /* Miscjson.json */; };
+		ECD36B241B3100CB005A58DF /* markers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD36B221B3100CB005A58DF /* markers@2x.png */; };
+		ECD36B251B3100CB005A58DF /* records@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD36B231B3100CB005A58DF /* records@2x.png */; };
+		ECD36B271B3100D1005A58DF /* 3dprint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD36B261B3100D1005A58DF /* 3dprint@2x.png */; };
+		ECF9E3971B32087600938403 /* bace_graphic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECF9E3961B32087600938403 /* bace_graphic.jpg */; };
+		ECF9E3991B32092A00938403 /* placeholder-bear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF9E3981B32092A00938403 /* placeholder-bear@2x.png */; };
+		ECF9E39B1B3209ED00938403 /* sandglass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF9E39A1B3209ED00938403 /* sandglass@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC0FFAD71B2FC97200CBCA99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0FFAB51B2FC97200CBCA99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC0FFABC1B2FC97200CBCA99;
+			remoteInfo = "BACE Time";
+		};
+		EC0FFAE21B2FC97200CBCA99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0FFAB51B2FC97200CBCA99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC0FFABC1B2FC97200CBCA99;
+			remoteInfo = "BACE Time";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BAE505ABA2FD88D1EF76629 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		159058CC448D6D88A798A796 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7658985777F5ABD68C05B97 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EC03D0B01B3482EB0079EFB2 /* YSLContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLContainerViewController.h; sourceTree = "<group>"; };
+		EC03D0B11B3482EB0079EFB2 /* YSLContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLContainerViewController.m; sourceTree = "<group>"; };
+		EC03D0B21B3482EB0079EFB2 /* YSLScrollMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLScrollMenuView.h; sourceTree = "<group>"; };
+		EC03D0B31B3482EB0079EFB2 /* YSLScrollMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLScrollMenuView.m; sourceTree = "<group>"; };
+		EC03D0B71B3487BC0079EFB2 /* YSLChildViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLChildViewControllerDelegate.h; sourceTree = "<group>"; };
+		EC03D0B81B348EBB0079EFB2 /* YSLChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLChildViewController.h; sourceTree = "<group>"; };
+		EC03D0B91B348EBB0079EFB2 /* YSLChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLChildViewController.m; sourceTree = "<group>"; };
+		EC0FFABD1B2FC97200CBCA99 /* BACE Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BACE Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0FFAC11B2FC97200CBCA99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC0FFAC31B2FC97200CBCA99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC0FFAC41B2FC97200CBCA99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC0FFACA1B2FC97200CBCA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC0FFACC1B2FC97200CBCA99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC0FFACF1B2FC97200CBCA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC0FFAD11B2FC97200CBCA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0FFAD61B2FC97200CBCA99 /* BACE TimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BACE TimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0FFADA1B2FC97200CBCA99 /* BACE_TimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BACE_TimeTests.m; sourceTree = "<group>"; };
+		EC0FFADC1B2FC97200CBCA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0FFAE11B2FC97200CBCA99 /* BACE TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BACE TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0FFAE51B2FC97200CBCA99 /* BACE_TimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BACE_TimeUITests.m; sourceTree = "<group>"; };
+		EC0FFAE71B2FC97200CBCA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0FFAF31B2FCAEB00CBCA99 /* cooking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooking.png; sourceTree = "<group>"; };
+		EC0FFAF41B2FCAEB00CBCA99 /* cooking@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cooking@2x.png"; sourceTree = "<group>"; };
+		EC0FFAF51B2FCAEB00CBCA99 /* pattern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pattern.jpg; sourceTree = "<group>"; };
+		EC0FFAFA1B2FCAF600CBCA99 /* timebanklogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timebanklogo.jpg; sourceTree = "<group>"; };
+		EC0FFAFC1B2FCB0200CBCA99 /* baceIcon3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baceIcon3x.png; sourceTree = "<group>"; };
+		EC0FFAFD1B2FCB0200CBCA99 /* baceIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baceIcon2x.png; sourceTree = "<group>"; };
+		EC0FFB001B2FCB0800CBCA99 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		EC0FFB021B2FCB1D00CBCA99 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		EC0FFB031B2FCB1D00CBCA99 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		EC0FFB041B2FCB1D00CBCA99 /* BACEUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BACEUtility.h; sourceTree = "<group>"; };
+		EC0FFB051B2FCB1D00CBCA99 /* BACEUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BACEUtility.m; sourceTree = "<group>"; };
+		EC32A6661B350F9E00681A1D /* YSLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLDetailViewController.h; sourceTree = "<group>"; };
+		EC32A6671B350F9E00681A1D /* YSLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLDetailViewController.m; sourceTree = "<group>"; };
+		EC32A6681B350F9E00681A1D /* YSLDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSLDetailViewController.xib; sourceTree = "<group>"; };
+		EC37FF891B311B8200B2C682 /* BaceJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaceJob.h; path = Models/BaceJob.h; sourceTree = "<group>"; };
+		EC37FF8A1B311B8200B2C682 /* BaceJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaceJob.m; path = Models/BaceJob.m; sourceTree = "<group>"; };
+		EC37FF8D1B311C7900B2C682 /* Neighborhood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Neighborhood.h; path = Models/Neighborhood.h; sourceTree = "<group>"; };
+		EC37FF8E1B311C7900B2C682 /* Neighborhood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Neighborhood.m; path = Models/Neighborhood.m; sourceTree = "<group>"; };
+		EC37FF931B311FE600B2C682 /* Skill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Skill.h; path = Models/Skill.h; sourceTree = "<group>"; };
+		EC37FF941B311FE600B2C682 /* Skill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Skill.m; path = Models/Skill.m; sourceTree = "<group>"; };
+		EC37FF961B31296800B2C682 /* BACEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BACEManager.h; sourceTree = "<group>"; };
+		EC37FF971B31296800B2C682 /* BACEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BACEManager.m; sourceTree = "<group>"; };
+		EC3FF6331B32738400E7035E /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		EC3FF6351B32739100E7035E /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3.png; sourceTree = "<group>"; };
+		EC3FF63B1B328FD800E7035E /* machine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "machine@2x.png"; sourceTree = "<group>"; };
+		EC3FF63D1B3344C400E7035E /* kombucha-dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kombucha-dark@2x.png"; sourceTree = "<group>"; };
+		EC4DD7001B3215C200916EBF /* BACEParseClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BACEParseClient.h; sourceTree = "<group>"; };
+		EC4DD7011B3215C200916EBF /* BACEParseClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BACEParseClient.m; sourceTree = "<group>"; };
+		EC5BBEB61B34FEC000A7C243 /* YSLJobCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLJobCell.h; sourceTree = "<group>"; };
+		EC5BBEB71B34FEC000A7C243 /* YSLJobCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLJobCell.m; sourceTree = "<group>"; };
+		EC5BBEB81B34FEC000A7C243 /* YSLJobCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSLJobCell.xib; sourceTree = "<group>"; };
+		EC70E1AA1B3647F900641066 /* SecretKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecretKeys.h; sourceTree = "<group>"; };
+		EC70E1AB1B36487300641066 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		EC70E1AC1B36487300641066 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		EC962A3B1B351E2D0005C120 /* YSLPeopleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLPeopleTableViewCell.h; sourceTree = "<group>"; };
+		EC962A3C1B351E2D0005C120 /* YSLPeopleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLPeopleTableViewCell.m; sourceTree = "<group>"; };
+		EC962A3D1B351E2D0005C120 /* YSLPeopleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSLPeopleTableViewCell.xib; sourceTree = "<group>"; };
+		EC962A411B3535910005C120 /* YSLJobDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLJobDetailViewController.h; sourceTree = "<group>"; };
+		EC962A421B3535910005C120 /* YSLJobDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLJobDetailViewController.m; sourceTree = "<group>"; };
+		EC962A431B3535910005C120 /* YSLJobDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSLJobDetailViewController.xib; sourceTree = "<group>"; };
+		ECC1D7CF1B335654003934E6 /* DesignStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DesignStoryboard.storyboard; sourceTree = "<group>"; };
+		ECC1D7D31B335ADE003934E6 /* YSLFrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLFrontViewController.h; sourceTree = "<group>"; };
+		ECC1D7D41B335ADE003934E6 /* YSLFrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLFrontViewController.m; sourceTree = "<group>"; };
+		ECC1D7D61B335BD8003934E6 /* YSLAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLAboutViewController.h; sourceTree = "<group>"; };
+		ECC1D7D71B335BD8003934E6 /* YSLAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLAboutViewController.m; sourceTree = "<group>"; };
+		ECC1D7D91B335BEA003934E6 /* YSLPeopleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLPeopleTableViewController.h; sourceTree = "<group>"; };
+		ECC1D7DA1B335BEA003934E6 /* YSLPeopleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLPeopleTableViewController.m; sourceTree = "<group>"; };
+		ECC1D7DC1B335DEE003934E6 /* YSLJobsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLJobsTableViewController.h; sourceTree = "<group>"; };
+		ECC1D7DD1B335DEE003934E6 /* YSLJobsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLJobsTableViewController.m; sourceTree = "<group>"; };
+		ECC1D7E01B3366AE003934E6 /* mayaProfile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mayaProfile@3x.png"; sourceTree = "<group>"; };
+		ECC1D7E21B3366B8003934E6 /* cityIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cityIcon@3x.png"; sourceTree = "<group>"; };
+		ECC1D7E41B3366C2003934E6 /* cityIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cityIcon@2x.png"; sourceTree = "<group>"; };
+		ECC1D7E61B336823003934E6 /* BACEUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BACEUser.h; sourceTree = "<group>"; };
+		ECC1D7E71B336823003934E6 /* BACEUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BACEUser.m; sourceTree = "<group>"; };
+		ECC1D7E91B337DE3003934E6 /* YSLMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLMainMenuViewController.h; sourceTree = "<group>"; };
+		ECC1D7EA1B337DE3003934E6 /* YSLMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLMainMenuViewController.m; sourceTree = "<group>"; };
+		ECC1D7ED1B33846D003934E6 /* YSLSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLSettingsViewController.h; sourceTree = "<group>"; };
+		ECC1D7EE1B33846D003934E6 /* YSLSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLSettingsViewController.m; sourceTree = "<group>"; };
+		ECD36B201B30F447005A58DF /* Miscjson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Miscjson.json; sourceTree = "<group>"; };
+		ECD36B221B3100CB005A58DF /* markers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "markers@2x.png"; sourceTree = "<group>"; };
+		ECD36B231B3100CB005A58DF /* records@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "records@2x.png"; sourceTree = "<group>"; };
+		ECD36B261B3100D1005A58DF /* 3dprint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3dprint@2x.png"; sourceTree = "<group>"; };
+		ECF9E3961B32087600938403 /* bace_graphic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bace_graphic.jpg; path = ../bace_graphic.jpg; sourceTree = "<group>"; };
+		ECF9E3981B32092A00938403 /* placeholder-bear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder-bear@2x.png"; sourceTree = "<group>"; };
+		ECF9E39A1B3209ED00938403 /* sandglass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sandglass@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC0FFABA1B2FC97200CBCA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208CC4FBD34927D1F7A08317 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0FFAD31B2FC97200CBCA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0FFADE1B2FC97200CBCA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		636F04843CDE4F243A00395C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7658985777F5ABD68C05B97 /* Pods.debug.xcconfig */,
+				0BAE505ABA2FD88D1EF76629 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC03D0B61B3482EF0079EFB2 /* YSLContainerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC03D0B71B3487BC0079EFB2 /* YSLChildViewControllerDelegate.h */,
+				EC03D0B01B3482EB0079EFB2 /* YSLContainerViewController.h */,
+				EC03D0B11B3482EB0079EFB2 /* YSLContainerViewController.m */,
+				EC03D0B21B3482EB0079EFB2 /* YSLScrollMenuView.h */,
+				EC03D0B31B3482EB0079EFB2 /* YSLScrollMenuView.m */,
+				EC03D0B81B348EBB0079EFB2 /* YSLChildViewController.h */,
+				EC03D0B91B348EBB0079EFB2 /* YSLChildViewController.m */,
+			);
+			name = YSLContainerViewController;
+			sourceTree = "<group>";
+		};
+		EC0FFAB41B2FC97200CBCA99 = {
+			isa = PBXGroup;
+			children = (
+				EC0FFABF1B2FC97200CBCA99 /* BACE Time */,
+				EC0FFAD91B2FC97200CBCA99 /* BACE TimeTests */,
+				EC0FFAE41B2FC97200CBCA99 /* BACE TimeUITests */,
+				EC0FFABE1B2FC97200CBCA99 /* Products */,
+				636F04843CDE4F243A00395C /* Pods */,
+				EDEA445D35C57555806D5D5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC0FFABE1B2FC97200CBCA99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC0FFABD1B2FC97200CBCA99 /* BACE Time.app */,
+				EC0FFAD61B2FC97200CBCA99 /* BACE TimeTests.xctest */,
+				EC0FFAE11B2FC97200CBCA99 /* BACE TimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC0FFABF1B2FC97200CBCA99 /* BACE Time */ = {
+			isa = PBXGroup;
+			children = (
+				EC2792A31B322B4D00F10D74 /* AppDelegate */,
+				ECC1D7D11B33568D003934E6 /* Storyboards */,
+				EC37FF8C1B311B8C00B2C682 /* Models */,
+				EC0FFB081B2FCB2300CBCA99 /* Manager/Helper */,
+				EC8BAC401B30DDCC0090EAD7 /* View Controllers */,
+				EC0FFACC1B2FC97200CBCA99 /* Assets.xcassets */,
+				EC0FFACE1B2FC97200CBCA99 /* LaunchScreen.storyboard */,
+				EC962A401B351E390005C120 /* YSL TableViewCells */,
+				EC0FFAD11B2FC97200CBCA99 /* Info.plist */,
+				EC0FFAC01B2FC97200CBCA99 /* Supporting Files */,
+			);
+			path = "BACE Time";
+			sourceTree = "<group>";
+		};
+		EC0FFAC01B2FC97200CBCA99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECD36B201B30F447005A58DF /* Miscjson.json */,
+				EC0FFAF91B2FCAEE00CBCA99 /* Images */,
+				EC0FFAC11B2FC97200CBCA99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC0FFAD91B2FC97200CBCA99 /* BACE TimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC0FFADA1B2FC97200CBCA99 /* BACE_TimeTests.m */,
+				EC0FFADC1B2FC97200CBCA99 /* Info.plist */,
+			);
+			path = "BACE TimeTests";
+			sourceTree = "<group>";
+		};
+		EC0FFAE41B2FC97200CBCA99 /* BACE TimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC0FFAE51B2FC97200CBCA99 /* BACE_TimeUITests.m */,
+				EC0FFAE71B2FC97200CBCA99 /* Info.plist */,
+			);
+			path = "BACE TimeUITests";
+			sourceTree = "<group>";
+		};
+		EC0FFAF91B2FCAEE00CBCA99 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EC0FFB001B2FCB0800CBCA99 /* logo.png */,
+				ECF9E39C1B3209F400938403 /* Icons */,
+				ECF9E3961B32087600938403 /* bace_graphic.jpg */,
+				EC3FF63F1B3344D000E7035E /* backgrounds */,
+				EC0FFAF51B2FCAEB00CBCA99 /* pattern.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EC0FFB081B2FCB2300CBCA99 /* Manager/Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EC37FF961B31296800B2C682 /* BACEManager.h */,
+				EC37FF971B31296800B2C682 /* BACEManager.m */,
+				EC4DD7001B3215C200916EBF /* BACEParseClient.h */,
+				EC4DD7011B3215C200916EBF /* BACEParseClient.m */,
+				EC0FFB021B2FCB1D00CBCA99 /* Constants.h */,
+				EC0FFB031B2FCB1D00CBCA99 /* Constants.m */,
+				EC70E1AA1B3647F900641066 /* SecretKeys.h */,
+				EC0FFB041B2FCB1D00CBCA99 /* BACEUtility.h */,
+				EC0FFB051B2FCB1D00CBCA99 /* BACEUtility.m */,
+			);
+			name = Manager/Helper;
+			sourceTree = "<group>";
+		};
+		EC2792A31B322B4D00F10D74 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EC0FFAC31B2FC97200CBCA99 /* AppDelegate.h */,
+				EC0FFAC41B2FC97200CBCA99 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		EC37FF8C1B311B8C00B2C682 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECC1D7E61B336823003934E6 /* BACEUser.h */,
+				ECC1D7E71B336823003934E6 /* BACEUser.m */,
+				EC37FF891B311B8200B2C682 /* BaceJob.h */,
+				EC37FF8A1B311B8200B2C682 /* BaceJob.m */,
+				EC37FF8D1B311C7900B2C682 /* Neighborhood.h */,
+				EC37FF8E1B311C7900B2C682 /* Neighborhood.m */,
+				EC37FF931B311FE600B2C682 /* Skill.h */,
+				EC37FF941B311FE600B2C682 /* Skill.m */,
+				EC03D0B61B3482EF0079EFB2 /* YSLContainerViewController */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EC3FF63F1B3344D000E7035E /* backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				EC3FF63B1B328FD800E7035E /* machine@2x.png */,
+				EC0FFAF31B2FCAEB00CBCA99 /* cooking.png */,
+				EC0FFAF41B2FCAEB00CBCA99 /* cooking@2x.png */,
+				EC3FF63D1B3344C400E7035E /* kombucha-dark@2x.png */,
+				ECD36B221B3100CB005A58DF /* markers@2x.png */,
+				ECD36B261B3100D1005A58DF /* 3dprint@2x.png */,
+				ECD36B231B3100CB005A58DF /* records@2x.png */,
+			);
+			name = backgrounds;
+			sourceTree = "<group>";
+		};
+		EC8BAC401B30DDCC0090EAD7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECC1D7D31B335ADE003934E6 /* YSLFrontViewController.h */,
+				ECC1D7D41B335ADE003934E6 /* YSLFrontViewController.m */,
+				ECC1D7E91B337DE3003934E6 /* YSLMainMenuViewController.h */,
+				ECC1D7EA1B337DE3003934E6 /* YSLMainMenuViewController.m */,
+				ECC1D7D61B335BD8003934E6 /* YSLAboutViewController.h */,
+				ECC1D7D71B335BD8003934E6 /* YSLAboutViewController.m */,
+				ECC1D7D91B335BEA003934E6 /* YSLPeopleTableViewController.h */,
+				ECC1D7DA1B335BEA003934E6 /* YSLPeopleTableViewController.m */,
+				ECC1D7DC1B335DEE003934E6 /* YSLJobsTableViewController.h */,
+				ECC1D7DD1B335DEE003934E6 /* YSLJobsTableViewController.m */,
+				ECC1D7ED1B33846D003934E6 /* YSLSettingsViewController.h */,
+				ECC1D7EE1B33846D003934E6 /* YSLSettingsViewController.m */,
+				EC32A6661B350F9E00681A1D /* YSLDetailViewController.h */,
+				EC32A6671B350F9E00681A1D /* YSLDetailViewController.m */,
+				EC32A6681B350F9E00681A1D /* YSLDetailViewController.xib */,
+				EC962A411B3535910005C120 /* YSLJobDetailViewController.h */,
+				EC962A421B3535910005C120 /* YSLJobDetailViewController.m */,
+				EC962A431B3535910005C120 /* YSLJobDetailViewController.xib */,
+				EC70E1AB1B36487300641066 /* ProfileViewController.h */,
+				EC70E1AC1B36487300641066 /* ProfileViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EC962A401B351E390005C120 /* YSL TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				EC962A3B1B351E2D0005C120 /* YSLPeopleTableViewCell.h */,
+				EC962A3C1B351E2D0005C120 /* YSLPeopleTableViewCell.m */,
+				EC962A3D1B351E2D0005C120 /* YSLPeopleTableViewCell.xib */,
+				EC5BBEB61B34FEC000A7C243 /* YSLJobCell.h */,
+				EC5BBEB71B34FEC000A7C243 /* YSLJobCell.m */,
+				EC5BBEB81B34FEC000A7C243 /* YSLJobCell.xib */,
+			);
+			name = "YSL TableViewCells";
+			sourceTree = "<group>";
+		};
+		ECC1D7D11B33568D003934E6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EC0FFAC91B2FC97200CBCA99 /* Main.storyboard */,
+				ECC1D7CF1B335654003934E6 /* DesignStoryboard.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		ECF9E39C1B3209F400938403 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				EC0FFAFD1B2FCB0200CBCA99 /* baceIcon2x.png */,
+				EC0FFAFC1B2FCB0200CBCA99 /* baceIcon3x.png */,
+				ECC1D7E41B3366C2003934E6 /* cityIcon@2x.png */,
+				ECC1D7E21B3366B8003934E6 /* cityIcon@3x.png */,
+				EC3FF6331B32738400E7035E /* icon1.png */,
+				EC3FF6351B32739100E7035E /* icon3.png */,
+				ECC1D7E01B3366AE003934E6 /* mayaProfile@3x.png */,
+				ECF9E3981B32092A00938403 /* placeholder-bear@2x.png */,
+				ECF9E39A1B3209ED00938403 /* sandglass@2x.png */,
+				EC0FFAFA1B2FCAF600CBCA99 /* timebanklogo.jpg */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		EDEA445D35C57555806D5D5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				159058CC448D6D88A798A796 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC0FFABC1B2FC97200CBCA99 /* BACE Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0FFAEA1B2FC97200CBCA99 /* Build configuration list for PBXNativeTarget "BACE Time" */;
+			buildPhases = (
+				4D0E5D66CF38987151BD9E28 /* Check Pods Manifest.lock */,
+				EC0FFAB91B2FC97200CBCA99 /* Sources */,
+				EC0FFABA1B2FC97200CBCA99 /* Frameworks */,
+				EC0FFABB1B2FC97200CBCA99 /* Resources */,
+				3429E456AD88800B1DDEDF37 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BACE Time";
+			productName = "BACE Time";
+			productReference = EC0FFABD1B2FC97200CBCA99 /* BACE Time.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC0FFAD51B2FC97200CBCA99 /* BACE TimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0FFAED1B2FC97200CBCA99 /* Build configuration list for PBXNativeTarget "BACE TimeTests" */;
+			buildPhases = (
+				EC0FFAD21B2FC97200CBCA99 /* Sources */,
+				EC0FFAD31B2FC97200CBCA99 /* Frameworks */,
+				EC0FFAD41B2FC97200CBCA99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC0FFAD81B2FC97200CBCA99 /* PBXTargetDependency */,
+			);
+			name = "BACE TimeTests";
+			productName = "BACE TimeTests";
+			productReference = EC0FFAD61B2FC97200CBCA99 /* BACE TimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC0FFAE01B2FC97200CBCA99 /* BACE TimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0FFAF01B2FC97200CBCA99 /* Build configuration list for PBXNativeTarget "BACE TimeUITests" */;
+			buildPhases = (
+				EC0FFADD1B2FC97200CBCA99 /* Sources */,
+				EC0FFADE1B2FC97200CBCA99 /* Frameworks */,
+				EC0FFADF1B2FC97200CBCA99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC0FFAE31B2FC97200CBCA99 /* PBXTargetDependency */,
+			);
+			name = "BACE TimeUITests";
+			productName = "BACE TimeUITests";
+			productReference = EC0FFAE11B2FC97200CBCA99 /* BACE TimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC0FFAB51B2FC97200CBCA99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Romy;
+				TargetAttributes = {
+					EC0FFABC1B2FC97200CBCA99 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 6K559Y986U;
+					};
+					EC0FFAD51B2FC97200CBCA99 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EC0FFABC1B2FC97200CBCA99;
+					};
+					EC0FFAE01B2FC97200CBCA99 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EC0FFABC1B2FC97200CBCA99;
+					};
+				};
+			};
+			buildConfigurationList = EC0FFAB81B2FC97200CBCA99 /* Build configuration list for PBXProject "BACE Time" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC0FFAB41B2FC97200CBCA99;
+			productRefGroup = EC0FFABE1B2FC97200CBCA99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC0FFABC1B2FC97200CBCA99 /* BACE Time */,
+				EC0FFAD51B2FC97200CBCA99 /* BACE TimeTests */,
+				EC0FFAE01B2FC97200CBCA99 /* BACE TimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC0FFABB1B2FC97200CBCA99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0FFAFF1B2FCB0200CBCA99 /* baceIcon2x.png in Resources */,
+				EC0FFAFE1B2FCB0200CBCA99 /* baceIcon3x.png in Resources */,
+				EC0FFAF61B2FCAEB00CBCA99 /* cooking.png in Resources */,
+				EC962A3F1B351E2D0005C120 /* YSLPeopleTableViewCell.xib in Resources */,
+				ECC1D7E51B3366C2003934E6 /* cityIcon@2x.png in Resources */,
+				ECF9E3971B32087600938403 /* bace_graphic.jpg in Resources */,
+				EC0FFAD01B2FC97200CBCA99 /* LaunchScreen.storyboard in Resources */,
+				ECD36B241B3100CB005A58DF /* markers@2x.png in Resources */,
+				ECD36B271B3100D1005A58DF /* 3dprint@2x.png in Resources */,
+				ECC1D7E31B3366B8003934E6 /* cityIcon@3x.png in Resources */,
+				EC0FFAF81B2FCAEB00CBCA99 /* pattern.jpg in Resources */,
+				EC3FF6341B32738400E7035E /* icon1.png in Resources */,
+				EC0FFAF71B2FCAEB00CBCA99 /* cooking@2x.png in Resources */,
+				EC0FFB011B2FCB0800CBCA99 /* logo.png in Resources */,
+				EC0FFACD1B2FC97200CBCA99 /* Assets.xcassets in Resources */,
+				EC32A66A1B350F9E00681A1D /* YSLDetailViewController.xib in Resources */,
+				EC5BBEBA1B34FEC000A7C243 /* YSLJobCell.xib in Resources */,
+				ECF9E39B1B3209ED00938403 /* sandglass@2x.png in Resources */,
+				ECC1D7D01B335654003934E6 /* DesignStoryboard.storyboard in Resources */,
+				ECC1D7E11B3366AE003934E6 /* mayaProfile@3x.png in Resources */,
+				EC962A451B3535910005C120 /* YSLJobDetailViewController.xib in Resources */,
+				EC3FF6361B32739100E7035E /* icon3.png in Resources */,
+				EC0FFAFB1B2FCAF600CBCA99 /* timebanklogo.jpg in Resources */,
+				ECD36B251B3100CB005A58DF /* records@2x.png in Resources */,
+				EC3FF63C1B328FD800E7035E /* machine@2x.png in Resources */,
+				ECD36B211B30F447005A58DF /* Miscjson.json in Resources */,
+				EC3FF63E1B3344C400E7035E /* kombucha-dark@2x.png in Resources */,
+				ECF9E3991B32092A00938403 /* placeholder-bear@2x.png in Resources */,
+				EC0FFACB1B2FC97200CBCA99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0FFAD41B2FC97200CBCA99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0FFADF1B2FC97200CBCA99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3429E456AD88800B1DDEDF37 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D0E5D66CF38987151BD9E28 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC0FFAB91B2FC97200CBCA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC37FF8F1B311C7900B2C682 /* Neighborhood.m in Sources */,
+				EC03D0B41B3482EB0079EFB2 /* YSLContainerViewController.m in Sources */,
+				EC37FF951B311FE600B2C682 /* Skill.m in Sources */,
+				ECC1D7D51B335ADE003934E6 /* YSLFrontViewController.m in Sources */,
+				ECC1D7EF1B33846D003934E6 /* YSLSettingsViewController.m in Sources */,
+				EC03D0B51B3482EB0079EFB2 /* YSLScrollMenuView.m in Sources */,
+				ECC1D7DB1B335BEA003934E6 /* YSLPeopleTableViewController.m in Sources */,
+				ECC1D7DE1B335DEE003934E6 /* YSLJobsTableViewController.m in Sources */,
+				EC37FF8B1B311B8200B2C682 /* BaceJob.m in Sources */,
+				EC32A6691B350F9E00681A1D /* YSLDetailViewController.m in Sources */,
+				EC70E1AD1B36487300641066 /* ProfileViewController.m in Sources */,
+				EC0FFAC51B2FC97200CBCA99 /* AppDelegate.m in Sources */,
+				EC37FF981B31296800B2C682 /* BACEManager.m in Sources */,
+				ECC1D7EB1B337DE3003934E6 /* YSLMainMenuViewController.m in Sources */,
+				EC0FFAC21B2FC97200CBCA99 /* main.m in Sources */,
+				EC4DD7021B3215C200916EBF /* BACEParseClient.m in Sources */,
+				ECC1D7D81B335BD8003934E6 /* YSLAboutViewController.m in Sources */,
+				EC962A441B3535910005C120 /* YSLJobDetailViewController.m in Sources */,
+				EC0FFB071B2FCB1D00CBCA99 /* BACEUtility.m in Sources */,
+				EC962A3E1B351E2D0005C120 /* YSLPeopleTableViewCell.m in Sources */,
+				EC5BBEB91B34FEC000A7C243 /* YSLJobCell.m in Sources */,
+				EC0FFB061B2FCB1D00CBCA99 /* Constants.m in Sources */,
+				EC03D0BA1B348EBB0079EFB2 /* YSLChildViewController.m in Sources */,
+				ECC1D7E81B336823003934E6 /* BACEUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0FFAD21B2FC97200CBCA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0FFADB1B2FC97200CBCA99 /* BACE_TimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0FFADD1B2FC97200CBCA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0FFAE61B2FC97200CBCA99 /* BACE_TimeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC0FFAD81B2FC97200CBCA99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC0FFABC1B2FC97200CBCA99 /* BACE Time */;
+			targetProxy = EC0FFAD71B2FC97200CBCA99 /* PBXContainerItemProxy */;
+		};
+		EC0FFAE31B2FC97200CBCA99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC0FFABC1B2FC97200CBCA99 /* BACE Time */;
+			targetProxy = EC0FFAE21B2FC97200CBCA99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC0FFAC91B2FC97200CBCA99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0FFACA1B2FC97200CBCA99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC0FFACE1B2FC97200CBCA99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0FFACF1B2FC97200CBCA99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC0FFAE81B2FC97200CBCA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC0FFAE91B2FC97200CBCA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC0FFAEB1B2FC97200CBCA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7658985777F5ABD68C05B97 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "BACE Time/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.snowyla.BACE-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC0FFAEC1B2FC97200CBCA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BAE505ABA2FD88D1EF76629 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "BACE Time/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.snowyla.BACE-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC0FFAEE1B2FC97200CBCA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BACE TimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.snowyla.BACE-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BACE Time.app/BACE Time";
+			};
+			name = Debug;
+		};
+		EC0FFAEF1B2FC97200CBCA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BACE TimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.snowyla.BACE-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BACE Time.app/BACE Time";
+			};
+			name = Release;
+		};
+		EC0FFAF11B2FC97200CBCA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BACE TimeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.snowyla.BACE-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BACE Time";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC0FFAF21B2FC97200CBCA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BACE TimeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.snowyla.BACE-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BACE Time";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC0FFAB81B2FC97200CBCA99 /* Build configuration list for PBXProject "BACE Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0FFAE81B2FC97200CBCA99 /* Debug */,
+				EC0FFAE91B2FC97200CBCA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0FFAEA1B2FC97200CBCA99 /* Build configuration list for PBXNativeTarget "BACE Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0FFAEB1B2FC97200CBCA99 /* Debug */,
+				EC0FFAEC1B2FC97200CBCA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0FFAED1B2FC97200CBCA99 /* Build configuration list for PBXNativeTarget "BACE TimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0FFAEE1B2FC97200CBCA99 /* Debug */,
+				EC0FFAEF1B2FC97200CBCA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0FFAF01B2FC97200CBCA99 /* Build configuration list for PBXNativeTarget "BACE TimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0FFAF11B2FC97200CBCA99 /* Debug */,
+				EC0FFAF21B2FC97200CBCA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC0FFAB51B2FC97200CBCA99 /* Project object */;
+}
